@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Model / training artifacts (optional)
+*.h5
+*.keras
+*.pb
+saved_model/
+
+# Data (keep datasets out of git)
+data/
+archive.zip
+
+# Figures / outputs (optional)
+*.png
+*.jpg
+*.jpeg
+*.svg
+outputs/
+runs/
